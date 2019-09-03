@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm -rf /root/myCA
 rm -rf /root/out
 mkdir /root/myCA
