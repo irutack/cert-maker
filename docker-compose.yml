@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  workspace:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: create-crt:tmp
+    container_name: create-crt
+    volumes:
+      - ./files:/root
+    command: ./makeCA.sh
+    # tty: true
