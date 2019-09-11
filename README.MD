@@ -29,11 +29,10 @@ subjectAltName          = @alt_names
 subjectAltName = @alt_names
 
 [alt_names] # 新規追加
-IP.1 = 192.168.1.1 # webサーバーのIPにする
-# IP.2 = 192.168.2.15
-DNS.1 = ssl.test # テスト用のDNS名。これで動く
-# DNS.2 = www.tmp.jp
-# DNS.3 = ccc.bbb.tmp.jp
+IP.1 = 192.168.0.1 # webサーバーのIPにする
+# IP.2 = 127.0.0.1
+DNS.1 = localhost
+# DNS.2 = ccc.bbb.tmp.jp
 ```
 RANDFILEは、.rnd ファイルがない、というエラーが出るのでコメントアウト。  
 githubのリポジトリ見るとなくなってるので、ちゃんと最新版入れれば消えているはず...
